@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+env/
+
+# Flask / local env
+.env
+.env.*
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data / exports
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.sqlite3
+*.db
+
+# Artifacts
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Node (future dashboard/frontend)
+node_modules/
